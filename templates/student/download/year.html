@@ -1,0 +1,42 @@
+{% extends 'student/basic.html' %}
+{% load static %}
+{% block body %}
+<section class="container">
+    <div class="row">
+        {% for i in year %}
+        <div class="col-lg-2 col-md-6 col-sm-10 col-10 offset-1 offset-sm-1 offset-md-0 ">
+            <div class="card paper_card">
+                <div class="card-body pre_paper">
+                    <h5 class="card-title test_card_title"><a href="{{i}}/"><span class="special">{{i}}</span></a></h5>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock body %}
+
+<!-- 
+    JEE stands for joint entrance exam is a national level engineering entrance exam consisting of two stages -
+    jee main and jee advance. JEE Main is a computer-based online test conducted by National Testing Agency for 
+    students aspiring to pursue undergraduate courses in top engineering institutes in India.  JEE Main is a 
+    screening exam to select the candidates who will be eligible to appear for JEE Advanced, which will serve as 
+    final exam to select candidates for admission into prestigious IITs. Every year, the IITs conduct a Joint 
+    Entrance Examination (JEE) to select candidates for the 4-year B.Tech, B.Pharm, 5-year B.Arch, Integrated M.Sc.
+    and M.Tech courses . t comprises of two papers. he Paper1 is conducted for admission to Undergraduate Engineering
+    Programs (B.E/B. Tech) at NITs, IIITs, other Centrally Funded Technical Institutions (CFTIs). It is also an 
+    eligibility test for JEE Advanced, which is conducted for admissions to IITs. The Paper 2 is conducted for 
+    admission to B. Arch and B. Planning courses in the Country. it is conducted 4times a year in more then 10+ languages
+    (assame, bangali english, gujrati, hindi, kannada, malayam, marathi, oriya, panjabi, tamil, telgu, urdu) and is of 3
+     hours duration.  https://engineering.careers360.com/exams/jee-main
+
+    NEET The National Eligibility cum Entrance Test (Undergraduate) or NEET (UG), formerly the All India Pre-Medical 
+    Test (AIPMT), is an all India pre-medical entrance test for students who wish to pursue undergraduate medical (MBBS),
+    (BDS) and AYUSH (BAMS, BUMS, BHMS, etc.) courses in government and private institutions in India and also, for those
+    intending to pursue primary medical qualification abroad.The exam is conducted by National Testing Agency (NTA), which
+    provides the results to the Directorate General of Health Services under Ministry of Health and Family Welfare and 
+    State Counselling Authorities for seat allocation. NEET-UG replaced the All India Pre Medical Test (AIPMT) and many 
+    other pre-medical exams conducted by states and various medical colleges. However, due to lawsuits being filed
+    against the exam, it could not be held in 2014 and 2015. NEET-UG is a single entrance test for admissions to more 
+    than 66,000 MBBS and BDS seats across India. https://medicine.careers360.com/articles/neet-full-form
+ -->

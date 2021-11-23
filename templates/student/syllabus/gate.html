@@ -1,0 +1,689 @@
+{% extends 'student/basic.html' %}
+{% load static %}
+{% block body %}
+
+<div class="topic pt-3">GATE Latest syllabus and exam information</div>
+
+<section class="container">
+    <!-- definition -->
+    <div class="definition">
+        <div class="heading">About GATE</div>
+        <div class="content">
+            <span>GATE</span> The Graduate Aptitude Test in Engineering, is conducted every year for engineering
+            students to secure admissions for M.E./ M.Tech/ PhD at the IITs, NIT's, IIIT's and CFTIs or to secure a high
+            profile job in a PSU Public Sector Undertakings) to recruit applicants for distinguished jobs at Indian Oil,
+            GAIL and Hindustan Petroleum, etc. GATE is conducted jointly by the Indian Institute of Science and seven
+            Indian Institutes of Technologies at Roorkee, Delhi, Guwahati, Kanpur, Kharagpur, Chennai (Madras) and
+            Mumbai
+            (Bombay) on behalf of the National Coordination Board – GATE, Department of Higher Education, Ministry of
+            Education (MoE), Government of India.
+        </div>
+    </div>
+
+
+    <!-- paper code -->
+    <div class="heading">Disciplines</div>
+    <div class="content">At present, GATE is conducted in following 29 disciplines. A student can select any one of
+        these following disciplines</div>
+    <div class="container">
+        <div class="row " style="border-top: 1px solid; border-right: 1px solid;">
+            <!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">GATE Paper</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">Code</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">GATE Paper</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">Code</div>
+            </div>
+            <!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Aerospace Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">AE</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Agricultural Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">AG</div>
+            </div>
+            <!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Architecture and Planning</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">AR</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Biomedical</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">BM</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Biotechnology</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">BT</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Civil Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">CE</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Chemical Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">CH</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Computer Science and Information Technology</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">CS</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Chemistry</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">CY</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Electronics and Communication Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">EC</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Electrical Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">EE</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Environmental Science and Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">ES</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Ecology and Evolution</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">EY</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Geology and Geophysics</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">GG</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Naval Architecture and Marine Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">NM</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Instrumentation Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">IN</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Mathematics</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">MA</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Mechanical Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">ME</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;"> Mining Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">MN</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Metallurgical Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">MT</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;"> Petroleum Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">PE</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Physics</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">PH</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Production and Industrial Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">PI</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Textile Engineering and Fiber Science</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">TF</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Engineering Sciences</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">XE</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;"> Life Sciences</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">XL</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Humanities and Social Sciences</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">XH</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Statistics</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">ST</div>
+            </div><!-- new row -->
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;">Geomatics Engineering</div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;">GE</div>
+            </div>
+            <div class="col-5 table_colums_border">
+                <div style="padding:10px 0px;"></div>
+            </div>
+            <div class="col-1 table_colums_border">
+                <div style="padding:10px 0px;"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- exam pattern -->
+    <div class="heading">GATE Exam Pattern</div>
+    <div class="row" style="border-top: 1px solid; border-right: 1px solid;">
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Factors</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">Details</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Name Of Exam</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">GATE</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Full Form</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">Graduate Aptitude Test in Engineering</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Exam Mode</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">Online</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Duration of Exam</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">3 hours</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Number of Questions</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">65</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Total Marks</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">100</div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Questions Type</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">1. Multiple Choice Questions (MCQ) <br>
+                2. Multiple Select Questions (MSQ) <br>
+                3. Numerical Answer Type (NAT) Questions
+            </div>
+        </div>
+        <!-- new row -->
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Marking Scheme</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div style="padding:10px 0px;">Type MCQs - 1 mark for each correct answer; 1/3 mark will be deducted every
+                wrong answer. <br>
+                Type MCQs - 2 marks for each correct answer; 2/3 mark will be deducted for every incorrect response.
+                <br>
+                Type MSQs - One or two marks for each correct answer. There is no negative marking for Multiple Select
+                Questions (MSQ) and Numerical Answer Type (NAT)
+                questions
+            </div>
+        </div>
+        <div class="col-2 table_colums_border">
+            <div style="padding:10px 0px;">Section Wise Marks Distribution</div>
+        </div>
+        <div class="col-10 table_colums_border">
+            <div class="row">
+                <div class="col-7" style="border-right:1px solid black; border-bottom:1px solid black;" >Distribution of questions in papers - AE, AG, BM, BT, CE, CH, CS, EC, EE, ES, NM, IN, ME, MN, MT, PE, PI, TF, XE, ST,GE
+                </div>
+                <div class="col-5" style="border-bottom:1px solid black;">General Aptitude (GA) - 15 Marks,
+                    Engineering Mathematics -13 Marks, and
+                    Selected subject - 72 Marks </div>
+                    <div class="col-7" style="border-right:1px solid black;">Distribution of questions in papers - AR, CY, EY, GG, MA, PH, XH, and XL
+                    </div>
+                    <div class="col-5">General Aptitude (GA) - 15 Marks,
+                        and Selected Subject - 85 Marks </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- paper code for xe xl xh -->
+    <div class="heding">Paper Code for XE, XH, XL Papers</div>
+    <div class="row" style="border-top: 1px solid; border-right: 1px solid;">
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">XE Paper Section [A -15 Marks and any two from B to H (2*35= 70 Marks)]</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">Code</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">XL Paper Section [P -25 Marks and any two from Q to U (2*30= 60 Marks)]</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">Code</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">XH Paper Section [B1 -25 Marks and any one from C1 to C6 - 60 Marks]</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">Code</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Engineering Mathematics (Compulsory)</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">A</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">	Chemistry (Compulsory)</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">P</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Reasoning and Comprehension (Compulsory)</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">B1</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Fluid Mechanics</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">B</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Biochemistry</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">Q</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Economics</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C1</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Materials Science</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">	Botany</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">R</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">English</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C2</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Solid Mechanics</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">D</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Microbiology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">S</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Linguistics</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C3</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Thermodynamics</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">E</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Zoology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">T</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">	Philosophy</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C3</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Polymer Science and Engineering</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">F</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Food Technology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">U</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">	Psychology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C5</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Food Technology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">G</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">	Sociology</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">C6</div>
+        </div>
+        <!-- new row -->
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;">Atmospheric and Oceanic Sciences</div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;">H</div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        <div class="col-3 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        <div class="col-1 table_colums_border">
+            <div style="padding:10px 0px;"></div>
+        </div>
+        
+    </div>
+
+    <!-- syllabus pdf -->
+    <div class="heading">GATE 2022 syllabus PDF</div>
+    <div class="row" style="border-top: 1px solid; border-right: 1px solid;">
+    <!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Paper Name</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;">PDF</div>
+    </div>
+    <!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Aerospace Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/AE.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Agricultural Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/AG.pdf' %}" download="">Download</a></div>
+    </div>
+    <!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Architecture and Planning</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/AR.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Biomedical</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/BM.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Biotechnology</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/BT.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Civil Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/CE.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Chemical Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/CH.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Computer Science and Information Technology</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/CS.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Chemistry</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/CY.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Electronics and Communication Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/EC.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Electrical Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/EE.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Environmental Science and Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/ES.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Ecology and Evolution</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/EY.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Geology and Geophysics</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/GG.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Naval Architecture and Marine Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/NM.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Instrumentation Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/IN.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Mathematics</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/MA.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Mechanical Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/ME.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;"> Mining Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/MN.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Metallurgical Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/MT.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;"> Petroleum Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/PE.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Physics</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/PH.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Production and Industrial Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/PI.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Textile Engineering and Fiber Science</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/TF.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Engineering Sciences</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/XE.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;"> Life Sciences</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/XL.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Humanities and Social Sciences</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/XH.pdf' %}" download="">Download</a></div>
+    </div>
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Statistics</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/ST.pdf' %}" download="">Download</a></div>
+    </div><!-- new row -->
+    <div class="col-8 table_colums_border">
+        <div style="padding:10px 0px;">Geomatics Engineering</div>
+    </div>
+    <div class="col-4 table_colums_border">
+        <div style="padding:10px 0px;"><a href="{% static 'assets/syllabus_pdf/gate/GE.pdf' %}" download="">Download</a></div>
+    </div> 
+
+    </div>
+</section>
+{% endblock body %}

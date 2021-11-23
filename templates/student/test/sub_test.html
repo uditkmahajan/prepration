@@ -1,0 +1,18 @@
+{% extends 'student/basic.html' %}
+{% load static %}
+{% block body %}
+<section class="container">
+    <div class="row">
+        {% for i in sub_test %}
+        <div class="col-lg-3 col-md-4 col-sm-10 col-10 offset-1 offset-sm-1 offset-md-0 ">
+            <div class="card paper_card">
+                <div class="card-body sub_test">
+                    <i class="fas fa-chalkboard-teacher fa-2x"></i>
+                    <h5 class="card-title test_card_title mt-2"  style="margin-left: 15px;"><a href="{{i}}/"><span class="special">{{test}} {{i}}</span></a></h5>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock body %}

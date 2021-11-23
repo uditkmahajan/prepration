@@ -1,0 +1,41 @@
+{% extends 'student/basic.html' %}
+{% load static %}
+{% block body %}
+<section class="container">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 offset-md-0 ">
+      <div class="card test_card">
+        <img src="{%static 'assets/img/python.png' %}" class="test_card_img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title test_card_title"><a href="python/"> Python Programming Tests</a> </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 offset-md-0 ">
+      <div class="card test_card">
+        <img src="{%static 'assets/img/java.png' %}" class="test_card_img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title test_card_title"><a href="java/">Java Programming Tests</a></h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 offset-md-0">
+      <div class="card test_card">
+        <img src="{%static 'assets/img/C.png' %}" class="test_card_img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title test_card_title"><a href="c++/"> C++ Programming Tests</a> </h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-10 offset-1 offset-sm-0 offset-md-0">
+      <div class="card test_card">
+        <img src="{%static 'assets/img/aptitude.png' %}" class="test_card_img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title test_card_title"><a href="apptitude/">Apptitude + Reasoning Tests</a></h5>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+{% endblock body %}
